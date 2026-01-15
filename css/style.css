@@ -1,0 +1,53 @@
+/* Reset de bază */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stil general pentru pagină */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Titluri */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Paragrafe */
+p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Link-uri */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3498db;
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+/* Efect la trecerea cu mouse-ul */
+a:hover {
+    background-color: #2980b9;
+}
+
+/* Container simplu (opțional) */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
